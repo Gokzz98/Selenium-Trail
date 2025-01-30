@@ -17,7 +17,7 @@ public class Basics {
 		driver.findElement(By.cssSelector("input[placeholder='Password']")).sendKeys("Suma@1234");
 		driver.findElement(By.cssSelector("button.btn")).click();
         
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10,TimeUnit.SECONDS)));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10,TimeUnit.SECONDS)));
 		
 		driver.quit();
 		
